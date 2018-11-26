@@ -1,13 +1,17 @@
 # remote-backup-cpanel-php
 Remotely backup cPanel accounts (even for v74+)
 
-# Install
+## Requirements
+- PHP 5.3+
+- Composer
+
+## Install
 1. Clone the repo
 2. Goto repo folder and run composer install command
 3. Configure main settings in conf.php
 4. Configure individual settings in conf_example.php
 
-# Backup multiple servers
+## Backup multiple servers
 1. Copy conf_example.php into another file conf_[name].php (where [name] can be anything)
 2. Update file with login details of new server
 3. Goto run.php and find conf_example.php
@@ -15,7 +19,7 @@ Remotely backup cPanel accounts (even for v74+)
 `require_once "conf_[name].php"; `
 5. Save file 
 
-# How to run backups periodically?
+## How to run backups periodically?
 Add following to cron
 
 ```
@@ -24,7 +28,7 @@ Add following to cron
 
 Update timing and php location accordingly
 
-# Todos
+## Todos
 1. Add error catching
 2. Logging output to file
 
