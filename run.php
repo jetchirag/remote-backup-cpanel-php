@@ -1,5 +1,13 @@
 <?php
 
+/*
+*
+* Run file for cPanel remote backup script. 
+* Check Readme for usage instructions
+* Created by @jetchirag
+*
+*/
+
 # Set required PHP settings
 date_default_timezone_set('UTC');
 set_time_limit(0);
