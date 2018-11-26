@@ -5,6 +5,11 @@ Remotely backup cPanel accounts (even for v74+)
 - PHP 5.3+
 - Composer
 
+## Features
+- Creates array of failed and success ones 
+- Notifies user through emailing (sendgrid)
+- Works with multiple servers
+
 ## Install
 1. Clone the repo
 2. Goto repo folder and run composer install command
