@@ -30,7 +30,7 @@ $rFail = array();
 $backupDir = $ftpPath . $backupDir;
 
 //Connect to FTP
-$ftpConnection = ftp_connect($ftpHost);
+$ftpConnection = ftp_connect($ftpHost, $ftpPort);
 $ftpLogin = ftp_login($ftpConnection, $ftpAcct, $ftpPass);
 
 ftp_pasv($ftpConnection, true);
